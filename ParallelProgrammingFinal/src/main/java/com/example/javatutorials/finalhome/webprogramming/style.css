@@ -1,0 +1,106 @@
+.main{
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("worldmap.jpg");
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.form{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  background-color: rgba(163, 163, 163, 0.705);
+  box-shadow:0 0 20px 9px rgba(80, 80, 80, 0.829);
+  border-radius: 20px;
+  margin: 6% auto;
+  padding: 10px;
+
+}
+
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.social-icons lottie-player {
+  width: 60px ;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.input-box{
+  position: absolute;
+  top: 180px;
+  width: 280px;
+
+}
+.input{
+
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  margin-right: 20px;
+  padding: 10px 10px;
+  border: none;
+  background:rgb(80, 80, 80);
+  border-radius: 35px;
+  outline:none;
+  font-size: 15px;
+  color:rgb(250, 250, 252);
+
+
+
+}
+.sbmt-btn{
+  display: block;
+  width: 55%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 110px;
+  margin-right: 50px;
+  padding: 10px;
+  border:none;
+  background-color:rgb(255, 140, 0);
+  border-radius: 35px;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+
+}
+
+
+.input-box a{
+
+  display: inline-block;
+  text-decoration:underline;
+  color: rgb(255, 140, 0);
+
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 155px;
+  margin-right: 10px;
+}
+.input-box :hover{
+  color: blanchedalmond;
+}
+.text{
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 110px;
+  margin-right: 10px;
+}
+.register{
+  z-index: 999;
+}
